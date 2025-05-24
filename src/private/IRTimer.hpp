@@ -512,7 +512,7 @@ void timerConfigForReceive() {
  * This is only possible by using Phase Correct with Top as OCR2A.
  * Thus the OCR2A register cannot be used for comparing for channel A and TOP with OCR2B is not supported by Hardware :-(.
  */
-#define IR_SEND_PIN  3              // Arduino Uno Pin PD3, Duemilanove, Diecimila, LilyPad, etc
+#define IR_SEND_PIN  9              // Arduino Uno Pin PD3, Duemilanove, Diecimila, LilyPad, etc
 #    endif // defined(CORE_OC2B_PIN)
 
 void enableSendPWMByTimer() {
